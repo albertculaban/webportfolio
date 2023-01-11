@@ -1,7 +1,6 @@
 /*reset*/
 
 *{
-  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +11,7 @@ nav.navbar ul li a {
   position: relative;
   overflow: hidden;
   z-index: 1;
+
 }
 nav.navbar ul li a:after {
   display: block;
@@ -27,13 +27,12 @@ nav.navbar ul li a:after {
   height: 1px;
   border-radius: 50%;
   background: transparent;
+
 }
 
-
-#contact_me{
-  padding-top: 20%;
-  padding-bottom: 10%;
-
+.navbar{
+  background-color: #14213d;
+  font-family: 'Oswald', sans-serif;
 }
 
 html{
@@ -49,8 +48,10 @@ html{
 }
 
 #footer{
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 2px;
+  padding-top: 15%;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
 #pinakauna{
@@ -59,26 +60,52 @@ html{
   background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed679?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   height: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  background: cover;
+  font-family: 'Oswald', sans-serif;
 }
 
 
 #tools{
   padding-top: 10%;
+  padding-bottom: 20%;
+  background-image: url(https://images.unsplash.com/photo-1520092352425-9699926a9b0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+#contact_me{
+  padding-top: 20%;
+  background-image: url(https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50%;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 
 .title{
-  padding-top: 20%;
+  padding-top: 5%;
   font-size: 80px;
   text-align: left;
+  font-family: 'Oswald', sans-serif;
 }
 
 .subtitle{
   position: relative;
   text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+.image{
+  margin-top: 3%;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #d5bdaf;
 }

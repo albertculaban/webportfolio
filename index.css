@@ -130,6 +130,7 @@ html{
 #subtitle-2{
   font-size: 20px;
   margin-top: -10px;
+  background-color: rgba(245, 235, 224,0.2);
   color: black;
 }
 
